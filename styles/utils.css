@@ -1,0 +1,38 @@
+/* xs */
+/* @media (min-width: 375px) {} */
+
+/* sm */
+/* @media (min-width: 425px) {} */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+.hide-display {
+  display: none;
+}
+
+.show-display {
+  display: flex;
+}
+
+/* xs */
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+/* sm */
+@media (min-width: 425px) {
+  .container {
+    max-width: 425px;
+  }
+}

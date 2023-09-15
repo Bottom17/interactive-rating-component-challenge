@@ -1,0 +1,64 @@
+.app {
+  background-color: var(--clr-dark-blue);
+  border-radius: 8px;
+}
+
+.app > * {
+  margin: 15px 0;
+}
+
+.app__star {
+  padding: 15px;
+  border-radius: 32px;
+  background-color: var(--clr-light-dark-blue);
+}
+
+.app__title {
+  color: var(--clr-white);
+  font-weight: 400;
+}
+
+.app__description {
+  color: var(--clr-medium-grey);
+  font-size: 15px;
+}
+
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__wrapper-btn {
+  border-radius: 50%;
+  padding: 15px;
+  width: 47.25px;
+  color: var(--clr-light-grey);
+  background-color: var(--clr-light-dark-blue);
+  font-size: 15px;
+  border: none;
+}
+
+.app__wrapper-btn:hover {
+  background-color: var(--clr-orange);
+  color: var(--clr-white);
+}
+
+.app__wrapper-btn-toggled {
+  background-color: var(--clr-light-grey);
+  color: var(--clr-white);
+}
+
+.app__submit-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--clr-orange);
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  letter-spacing: 0.05rem;
+}
+
+.app__submit-btn:hover {
+  color: var(--clr-orange);
+  background-color: var(--clr-white);
+}
